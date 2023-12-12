@@ -1,54 +1,48 @@
-# Astro Starter Kit: Basics
+# Portfolio Website - Built with Astro
 
-```sh
-npm create astro@latest -- --template basics
-```
+## Overview
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+This portfolio website is a showcase of my professional work and skills, redesigned and rebuilt using the Astro framework. Originally developed in React, I sought a more efficient and faster solution for a statically generated site, leading me to choose Astro.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Why Astro?
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Astro is a modern framework designed for building faster websites with less client-side JavaScript. It allows for building static sites with various frontend frameworks (including React) but delivers them with significantly better performance.
 
-## 🚀 Project Structure
+## Challenges in Adopting Astro
 
-Inside of your Astro project, you'll see the following folders and files:
+### Learning Curve
+- **New Syntax and Concepts:** Adapting to Astro's unique blend of HTML, JavaScript, and component architecture required an adjustment period.
+- **Understanding Rendering Modes:** Grasping the different rendering modes (Static, SSR, SSG) and applying them effectively was a learning process.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### Integrating with Existing Knowledge
+- **React Integration:** Leveraging my React skills within Astro's environment, balancing server-side and client-side rendering.
+- **Routing and Layouts:** Adapting to Astro's approach to routing and layouts, which differs from React's single-page application (SPA) model.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Optimizing Performance
+- **Efficient Asset Management:** Learning to manage assets efficiently in Astro, including images, styles, and scripts.
+- **Optimizing for Speed:** Implementing best practices in Astro to ensure the site loads quickly and runs smoothly.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### Debugging and Troubleshooting
+- **New Debugging Techniques:** Familiarizing myself with Astro-specific debugging techniques and tools.
+- **Community and Resources:** Navigating the relatively new and growing community and resources for troubleshooting.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Project Structure
 
-## 🧞 Commands
+- `src/`: Contains all the source code for the website.
+- `src/pages/`: Astro pages for each section of the portfolio.
+- `src/components/`: Reusable components, some from my previous React project.
+- `public/`: Static assets like images and global CSS.
 
-All commands are run from the root of the project, from a terminal:
+## Running the Project
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+1. **Installation**: Run `npm install` to install dependencies.
+2. **Development**: Run `npm run dev` to start the development server.
+3. **Build**: Run `npm run build` to create a production build.
 
-## 👀 Want to learn more?
+## Conclusion
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Transitioning to Astro brought both challenges and learning opportunities. The effort has paid off in terms of performance gains and a more efficient development process. I'm excited to see how Astro evolves and to continue refining my site with its capabilities.
+
+---
+
+Built with ❤️ using Astro
